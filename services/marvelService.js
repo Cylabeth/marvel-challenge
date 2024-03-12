@@ -1,10 +1,11 @@
+/* eslint-disable no-undef */
 
 /* Dado que la API key no esta asociada a ninguna información sensible, y solo a fin de completar
 el challenge, se han expuesto la public key y el hash en la parte del cliente.*/
 
 const API_URL = 'http://gateway.marvel.com/v1/public/characters';
-const PUBLIC_KEY = process.env.NEXT_PUBLIC_MARVEL_PUBLIC_KEY;
-const HASH = process.env.NEXT_PUBLIC_MARVEL_HASH;
+const PUBLIC_KEY = NEXT_PUBLIC_MARVEL_PUBLIC_KEY;
+const HASH = NEXT_PUBLIC_MARVEL_HASH;
 
 export const fetchCharacters = async () => {
     try {
