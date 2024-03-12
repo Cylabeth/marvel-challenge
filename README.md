@@ -69,7 +69,9 @@ Capturas de Pantalla - DESKTOP
 <img src="http://cylabeth.com/gitimg/main-desktop.png" width="400" >
 
 
+
 <img src="http://cylabeth.com/gitimg/detail-desktop.png" width="400" >
+
 
 
 <img src="http://cylabeth.com/gitimg/fav-section-desktop.png" width="400" >
@@ -82,7 +84,9 @@ Capturas de Pantalla - MOBILE
 <img src="http://cylabeth.com/gitimg/main-mobile.png" width="250" >
 
 
+
 <img src="http://cylabeth.com/gitimg/detail-mobile.png" width="250" >
+
 
 
 <img src="http://cylabeth.com/gitimg/fav-section-movile.png" width="250" >
@@ -169,7 +173,9 @@ Screenshots - DESKTOP
 <img src="http://cylabeth.com/gitimg/main-desktop.png" width="400" >
 
 
+
 <img src="http://cylabeth.com/gitimg/detail-desktop.png" width="400" >
+
 
 
 <img src="http://cylabeth.com/gitimg/fav-section-desktop.png" width="400" >
@@ -178,13 +184,15 @@ Screenshots - DESKTOP
 Screenshots - MOBILE
 ------------------------------
 
-Main View
+
 <img src="http://cylabeth.com/gitimg/main-mobile.png" width="250" >
 
-Detail View
+
+
 <img src="http://cylabeth.com/gitimg/detail-mobile.png" width="250" >
 
-Favorites filter View
+
+
 <img src="http://cylabeth.com/gitimg/fav-section-movile.png" width="250" >
 
 
