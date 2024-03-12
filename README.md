@@ -65,15 +65,19 @@ Desafíos y Soluciones
 Capturas de Pantalla - DESKTOP
 ------------------------------
 
-<img src="http://cylabeth.com/gitimg/main-desktop.png" width="400" ></br>
-<img src="http://cylabeth.com/gitimg/detail-desktop.png" width="400" ></br>
+<img src="http://cylabeth.com/gitimg/main-desktop.png" width="400" >
+------------------------------
+<img src="http://cylabeth.com/gitimg/detail-desktop.png" width="400" >
+------------------------------
 <img src="http://cylabeth.com/gitimg/fav-section-desktop.png" width="400" >
 
 
 Capturas de Pantalla - MOBILE
 ------------------------------
-<img src="http://cylabeth.com/gitimg/main-mobile.png" width="250" ></br>
-<img src="http://cylabeth.com/gitimg/detail-mobile.png" width="250" ></br>
+<img src="http://cylabeth.com/gitimg/main-mobile.png" width="250" >
+------------------------------
+<img src="http://cylabeth.com/gitimg/detail-mobile.png" width="250" >
+------------------------------
 <img src="http://cylabeth.com/gitimg/fav-section-movile.png" width="250" >
 
 
@@ -154,17 +158,21 @@ Challenges and Solutions
 Screenshots - DESKTOP
 ------------------------------
 
-![Detail character view](http://cylabeth.com/gitimg/detail-desktop.png | width=250)
-![Main view](http://cylabeth.com/gitimg/main-desktop.png | width=250)
-![Favorites filter view](http://cylabeth.com/gitimg/fav-section-desktop.png | width=250)
+<img src="http://cylabeth.com/gitimg/main-desktop.png" width="400" >
+------------------------------
+<img src="http://cylabeth.com/gitimg/detail-desktop.png" width="400" >
+------------------------------
+<img src="http://cylabeth.com/gitimg/fav-section-desktop.png" width="400" >
 
 
 Screenshots - MOBILE
 ------------------------------
 
-![Detail character view](http://cylabeth.com/gitimg/detail-mobile.png | width=150)
-![Main view](http://cylabeth.com/gitimg/main-mobile.png | width=150)
-![Favorites filter view](http://cylabeth.com/gitimg/fav-section-movile | width=150)
+<img src="http://cylabeth.com/gitimg/main-mobile.png" width="250" >
+------------------------------
+<img src="http://cylabeth.com/gitimg/detail-mobile.png" width="250" >
+------------------------------
+<img src="http://cylabeth.com/gitimg/fav-section-movile.png" width="250" >
 
 
 Future Improvements
