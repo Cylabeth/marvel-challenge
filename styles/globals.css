@@ -135,7 +135,7 @@ a:active {
     font-weight: 700;
     text-transform: uppercase;
     margin: 0 auto;
-    padding: 40px 40px 0;
+    padding: 40px 15px 0;
 }
 
 @media screen and (min-width: 640px) {
@@ -166,12 +166,15 @@ a:active {
         width: 190px;
         height: 185px;
     } 
-    
+    .character-favs {
+        padding: 40px 40px 0;
+    }
 }
 @media screen and (max-width: 360px) {
     .character-card {
         width: 156px;
         height: 208px;
     }
+
 }
 
