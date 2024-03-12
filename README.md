@@ -7,6 +7,7 @@ Introducción
 ------------
 
 Este proyecto es un ejercicio propuesto como prueba técnica. Utilizando la API de Marvel Developers, los usuarios pueden ver una lista de personajes, agregarlos a favoritos y ver información detallada sobre cada personaje.
+Deploy (Vercel) ---> https://marvel-app-eight-eta.vercel.app/
 
 
 Tecnologías Utilizadas
@@ -111,6 +112,7 @@ Introduction
 ------------
 
 This project is a proposed exercise as a technical test. Using the Marvel Developers API, users can view a list of characters, add them to favorites, and view detailed information about each character.
+Deploy (Vercel) ---> https://marvel-app-eight-eta.vercel.app/
 
 
 Technologies Used
