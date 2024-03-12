@@ -65,26 +65,26 @@ Desafíos y Soluciones
 Capturas de Pantalla - DESKTOP
 ------------------------------
 
-Vista principal
+
 <img src="http://cylabeth.com/gitimg/main-desktop.png" width="400" >
 
-Vista detalle personaje
+
 <img src="http://cylabeth.com/gitimg/detail-desktop.png" width="400" >
 
-Vista filtro favoritos
+
 <img src="http://cylabeth.com/gitimg/fav-section-desktop.png" width="400" >
 
 
 Capturas de Pantalla - MOBILE
 ------------------------------
 
-Vista principal
+
 <img src="http://cylabeth.com/gitimg/main-mobile.png" width="250" >
 
-Vista detalle personaje
+
 <img src="http://cylabeth.com/gitimg/detail-mobile.png" width="250" >
 
-Vista filtro favoritos
+
 <img src="http://cylabeth.com/gitimg/fav-section-movile.png" width="250" >
 
 
@@ -165,13 +165,13 @@ Challenges and Solutions
 Screenshots - DESKTOP
 ------------------------------
 
-Main View
+
 <img src="http://cylabeth.com/gitimg/main-desktop.png" width="400" >
 
-Detail View
+
 <img src="http://cylabeth.com/gitimg/detail-desktop.png" width="400" >
 
-Favorites filter View
+
 <img src="http://cylabeth.com/gitimg/fav-section-desktop.png" width="400" >
 
 
