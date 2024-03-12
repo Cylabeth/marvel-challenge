@@ -76,7 +76,7 @@ const Home = ()  => {
                 <Link key={character.id} href={`/characters/${character.id}`} passHref>
                     <div key={character.id} className="character-card" onMouseEnter={() => setHoveredCardId(character.id)} onMouseLeave={() => setHoveredCardId(null)}>
                         <div className="character-img" >
-                            <Image src={`${character.thumbnail.path}.${character.thumbnail.extension}`} alt={character.name} width={imageSize.width} height={imageSize.height} />
+                            <Image src={`${character.thumbnail.path}.${character.thumbnail.extension}`} alt={character.name} width={imageSize.width} height={imageSize.height} priority/>
                         </div>
                         <div className="character-data">
                             <h3>{splitName(character.name)[0]}</h3>

@@ -24,7 +24,7 @@ const Header = ({ loading}) => {
   return (
     <header className={styles.header}>
       <div className={styles.logoContainer} onClick={handleLogoClick}>
-          <Image src="/images/marvel-logo.svg" alt="Marvel Logo" className={styles.logo} width={130} height={52}/>
+          <Image src="/images/marvel-logo.svg" alt="Marvel Logo" className={styles.logo} width={130} height={52} priority/>
       </div>
       <div className={styles.favorites} onClick={handleFavoriteClick}>
           <Image src="/images/big-heart.svg" alt="Favorites" className={styles.heartIcon} width={26} height={24}/>
