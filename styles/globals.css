@@ -170,11 +170,37 @@ a:active {
         padding: 40px 40px 0;
     }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 399px) {
     .character-card {
-        width: 156px;
-        height: 208px;
+        width: 157px;
+        height: 212px;
     }
+    .character-data {
+        width: 157px;
+        height: 60px;
+    }  
+ 
+    .character-img {
+        width: 157px;
+        height: 157px;
+    } 
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 639px) {
+    .character-card {
+        width: 180px;
+        height: 227px;
+    }
+    .character-data {
+        width: 180px;
+        height: 60px;
+    }  
+ 
+    .character-img {
+        width: 180px;
+        height: 172px;
+    } 
 
 }
 

@@ -32,11 +32,15 @@ const Home = ()  => {
     
     useEffect(() => {
         const updateImageSize = () => {
-            if (window.innerWidth < 640) {
-                setImageSize({ width: 162, height: 157 });
-            } else {
-                setImageSize({ width: 190, height: 185 });
-            }
+            if(window.innerWidth > 400 && window.innerWidth < 640) {
+                setImageSize({ width: 180, height: 172 });
+           }
+           if(window.innerWidth < 400 ) {
+               setImageSize({ width: 157, height: 157 });
+           }
+           if(window.innerWidth > 640) {
+               setImageSize({ width: 190, height: 185 });
+           }
         };
 
         updateImageSize();
