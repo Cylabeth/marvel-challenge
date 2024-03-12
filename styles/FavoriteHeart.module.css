@@ -1,0 +1,9 @@
+
+.heartContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+.heart{
+    transition: opacity 0.3s;
+}

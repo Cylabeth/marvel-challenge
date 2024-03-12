@@ -1,0 +1,194 @@
+.characterBanner {
+    background-color: var( --secondary-color);
+    color: var(--background-color);
+    width: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 10%, 100% 96%, 94% 100%, 0 100%, 0% 93%, 0% 10%);
+    clip-path: polygon(0 0, 100% 0, 100% 10%, 100% 96%, 94% 100%, 0 100%, 0% 93%, 0% 10%);
+}
+ 
+.characterBannerContent {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+}  
+  
+.characterInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.characterInfo p {
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight:400;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
+.characterGroup{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px 0;
+    align-items: center;
+}
+
+.characterName {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.characterSubtitle{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 40px 15px 30px;
+}
+
+.characterImageContainer{
+    position: relative;
+    width: 100%;  
+    height: 0; 
+    padding-top: 100%; 
+    overflow: hidden;  
+}
+
+.comicsContainer {
+    display: flex;
+    overflow-x: auto;
+    margin: 0 auto 50px; 
+    padding: 0 15px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--heart-color) #D9D9D9;
+
+}
+
+.comicsContainer::-webkit-scrollbar {
+    height: 4px;
+    -webkit-appearance: none;
+    width: 4px;
+}
+
+.comicsContainer::-webkit-scrollbar-track {
+    background: #D9D9D9; /* Color of the track */
+}
+
+.comicsContainer::-webkit-scrollbar-thumb {
+    background: var(--heart-color); /* Color of the scrollbar thumb */
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    border-radius: 4px;
+}
+
+.comicsContainer::-webkit-scrollbar-thumb:hover {
+    background: var(--heart-color) /* Color of the scrollbar thumb on hover */
+}
+
+.comic {
+    flex: 0 0 auto;
+    width: 180px;
+    height: 360px;
+    margin-right: 16px;
+}
+  
+.comic img {
+    width: 180px;
+    height: 270px;
+}
+  
+.comicInfo{
+    margin: 12px 0 8px;
+    color: var( --secondary-color);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}
+
+.comicYear{
+    color: var( --secondary-color);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    margin:0;
+    text-align: left;
+}
+
+.characterFav{
+    width: 24px;
+    height: 22px;
+    position: leftt;
+    margin-top: 12px;
+}
+
+@media screen and (min-width: 640px) {
+    .characterBanner {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 10%, 100% 92%, 98% 100%, 0 100%, 0% 90%, 0% 10%);
+        clip-path: polygon(0 0, 100% 0, 100% 10%, 100% 92%, 98% 100%, 0 100%, 0% 90%, 0% 10%);
+    }
+
+    .characterBannerContent {
+        max-width: 960px;
+        gap:50px;
+        flex-direction: row;
+        padding: 0 40px;
+    } 
+
+    .characterName {
+        font-size: 40px;
+    }
+
+    .characterInfo {
+        padding-right: 40px;
+    }
+
+    .characterInfo p {
+        padding: 0 20px 0 0;
+        margin-bottom: 20px;
+    }
+
+    .characterGroup{
+        padding: 0 40px 0 0;
+    }
+
+    .characterSubtitle{
+        font-size: 32px;
+        max-width: 960px;
+        padding: 40px 40px 20px;
+    }
+  
+    .characterImageContainer {
+        height: 320px;
+        padding-top: 0;
+        object-fit: contain;
+        
+    }
+
+    .comicsContainer {
+        display: flex;
+        overflow-x: auto;
+        margin: 0 auto; 
+        max-width: 960px;
+        padding: 0 40px;
+    }
+
+    .comic {
+        flex: 0 0 auto;
+        width: 180px;
+        height: 360px;
+        margin-right: 16px;
+        text-align: center;
+    }
+}
